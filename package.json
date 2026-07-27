@@ -1,0 +1,17 @@
+{
+  "name": "marginalia",
+  "version": "1.0.0",
+  "description": "Marginalia - short fiction by Sebastian Shaw",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["short-fiction", "flash-fiction", "story", "web"],
+  "author": "Sebastian Shaw",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
